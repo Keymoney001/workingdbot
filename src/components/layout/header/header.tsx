@@ -146,15 +146,15 @@ const AppHeader = observer(() => {
 
                 {isDesktop ? (
                     <div className='mobile-menu'>
-                        <button onClick={() => window.location.href = 'https://dm-pay.africa/'}>
+                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
                             <ArrowUpCircle className='mobile-menu__icon' />
                             Withdraw
                         </button>
-                        <button onClick={() => window.location.href = 'https://dm-pay.africa/'}>
+                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
                             <ArrowDownCircle className='mobile-menu__icon' />
                             Deposit
                         </button>
-                        <button onClick={() => window.location.href = 'https://t.me/ProfitMaxTraderHub'}>
+                        <button onClick={() => window.location.href = 'https://t.me/protraders254'}>
                             <Mail className='mobile-menu__icon' />
                             Contact
                         </button>
@@ -172,15 +172,15 @@ const AppHeader = observer(() => {
 
                 {isMenuOpen && !isDesktop && (
                     <div className='mobile-menu' style={{ background: 'rgba(0, 0, 0, 0.7)', border: '2px solid red' }}>
-                        <button onClick={() => window.location.href = 'https://dm-pay.africa/'}>
+                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
                             <ArrowUpCircle className='mobile-menu__icon' />
                             Withdraw
                         </button>
-                        <button onClick={() => window.location.href = 'https://dm-pay.africa/'}>
+                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
                             <ArrowDownCircle className='mobile-menu__icon' />
                             Deposit
                         </button>
-                        <button onClick={() => window.location.href = 'https://t.me/ProfitMaxTraderHub'}>
+                        <button onClick={() => window.location.href = 'https://t.me/protraders254'}>
                             <Mail className='mobile-menu__icon' />
                             Contact
                         </button>

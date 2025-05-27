@@ -58,7 +58,7 @@
       <block type="text_print" id=")J1(pHFl]elGq*pgN)0Q" collapsed="true">
         <value name="TEXT">
           <shadow type="text" id="9fO$}GCCGs/RoRg-ta2,">
-            <field name="TEXT">"🚀 ProfitMax Fusion-X 🤖🌠™: For best results, run the bot right on our site — bots.profitmaxtrader.com. Smooth, safe, and profit-ready!"</field>
+            <field name="TEXT">"🚀 Pro Traders Fusion-X 🤖🌠™: For best results, run the bot right on our site — bots.Pro Traderstrader.com. Smooth, safe, and profit-ready!"</field>
           </shadow>
         </value>
         <next>
@@ -114,7 +114,7 @@
                                             <field name="TEXT"></field>
                                           </shadow>
                                           <block type="text" id="OJ1~E$Q]JqZX#A`PUOTy">
-                                            <field name="TEXT">🚀 ProfitMax Fusion-X 🤖🌠™ Automated Trading Bot by ProfitMax Trader 🔗 Available at: &lt;span style="color:#0073e6;"&gt;bots.profitmaxtrader.com&lt;/span&gt; • Anticipated Profits 💰➡️ $</field>
+                                            <field name="TEXT">🚀 Pro Traders Fusion-X 🤖🌠™ Automated Trading Bot by Pro Traders Trader 🔗 Available at: &lt;span style="color:#0073e6;"&gt;bots.Pro Traderstrader.com&lt;/span&gt; • Anticipated Profits 💰➡️ $</field>
                                           </block>
                                         </value>
                                         <next>
@@ -752,7 +752,7 @@
                                     <field name="TEXT"></field>
                                   </shadow>
                                   <block type="text" id="|0r,rn%dpAV#vkAZ*SaE">
-                                    <field name="TEXT">🚀 ProfitMax Fusion-X 🤖🌠™ ELITE AUTO-BOT 🇬🇧 [By: ProfitMax Trader: bots.profitmaxtrader.com]</field>
+                                    <field name="TEXT">🚀 Pro Traders Fusion-X 🤖🌠™ ELITE AUTO-BOT 🇬🇧 [By: Pro Traders Trader: bots.Pro Traderstrader.com]</field>
                                   </block>
                                 </value>
                                 <next>
@@ -930,7 +930,7 @@
         <field name="NOTIFICATION_SOUND">silent</field>
         <value name="MESSAGE">
           <shadow type="text" id="p:@2jG@*l;;PUpZqp$,W">
-            <field name="TEXT">🚀 ProfitMax Fusion-X 🤖🌠™ By: ProfitMax Trader [bots.profitmaxtrader.com]</field>
+            <field name="TEXT">🚀 Pro Traders Fusion-X 🤖🌠™ By: Pro Traders Trader [bots.Pro Traderstrader.com]</field>
           </shadow>
         </value>
         <next>
@@ -1147,7 +1147,7 @@
             </value>
             <value name="B">
               <block type="text" id="}.6A6R89fwz^:Rq8G[jM">
-                <field name="TEXT">ProfitMax</field>
+                <field name="TEXT">Pro Traders</field>
               </block>
             </value>
           </block>

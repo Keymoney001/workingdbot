@@ -10,14 +10,14 @@ import './freebots.scss';
 
 // Import the XML files directly
 import x1 from './bot-files/Profit Max No Martngale FREE Bot.xml'; // Correct the import statement
-import x2 from './bot-files/ProfitMax Accu Bot Main.xml';
-import x3 from './bot-files/🔥 ProfitMax Apex Trader 🚀📊✨.xml';
-import x4 from './bot-files/🔹 ProfitMax 1$ System 💰🤖.xml';
-import x5 from './bot-files/🚀 ProfitMax Fusion-X 🤖🌠™ 2025.xml';
-import x6 from './bot-files/🚀 ProfitMax Rise & Fall Auto Switch 🔄📈📉.xml';
-import x7 from './bot-files/🤖🎯 The ProfitMax Even_Odd Auto Switch 2025™ 🔄.xml';
-import x8 from './bot-files/🧠📊🔍 ProfitMax Fusion Analyzer™.xml';
-import x9 from './bot-files/⚡ ProfitMax Encroach Trader 💵.xml';
+import x2 from './bot-files/Pro Traders Accu Bot Main.xml';
+import x3 from './bot-files/🔥 Pro Traders Apex Trader 🚀📊✨.xml';
+import x4 from './bot-files/🔹 Pro Traders 1$ System 💰🤖.xml';
+import x5 from './bot-files/🚀 Pro Traders Fusion-X 🤖🌠™ 2025.xml';
+import x6 from './bot-files/🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉.xml';
+import x7 from './bot-files/🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄.xml';
+import x8 from './bot-files/🧠📊🔍 Pro Traders Fusion Analyzer™.xml';
+import x9 from './bot-files/⚡ Pro Traders Encroach Trader 💵.xml';
 import x10 from './bot-files/$Orginal DollarPrinterBot  2025 Version $.xml';
 import x11 from './bot-files/Alpha Version 2025.xml';
 import x12 from './bot-files/Updated Version Of Candle Mine🇬🇧.xml';
@@ -31,14 +31,14 @@ const FreeBots = observer(() => {
     // Map filenames to their XML content
     const botXmlMap: Record<string, string> = {
         'Profit Max No Martngale FREE Bot.xml': x1,
-        'ProfitMax Accu Bot Main.xml': x2,
-        '🔥 ProfitMax Apex Trader 🚀📊✨.xml': x3,
-        '🔹 ProfitMax 1$ System 💰🤖.xml': x4,
-        '🚀 ProfitMax Fusion-X 🤖🌠™ 2025.xml': x5,
-        '🚀 ProfitMax Rise & Fall Auto Switch 🔄📈📉.xml': x6,
-        '🤖🎯 The ProfitMax Even_Odd Auto Switch 2025™ 🔄.xml': x7,
-        '🧠📊🔍 ProfitMax Fusion Analyzer™.xml': x8,
-        '⚡ ProfitMax Encroach Trader 💵.xml': x9,
+        'Pro Traders Accu Bot Main.xml': x2,
+        '🔥 Pro Traders Apex Trader 🚀📊✨.xml': x3,
+        '🔹 Pro Traders 1$ System 💰🤖.xml': x4,
+        '🚀 Pro Traders Fusion-X 🤖🌠™ 2025.xml': x5,
+        '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉.xml': x6,
+        '🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄.xml': x7,
+        '🧠📊🔍 Pro Traders Fusion Analyzer™.xml': x8,
+        '⚡ Pro Traders Encroach Trader 💵.xml': x9,
         '$Orginal DollarPrinterBot  2025 Version $.xml': x10,
         'Alpha Version 2025.xml': x11,
         'Updated Version Of Candle Mine🇬🇧.xml': x12,
@@ -52,51 +52,51 @@ const FreeBots = observer(() => {
             icon: '🤖',
         },
         {
-            name: 'ProfitMax Accu Bot Main',
-            description: 'ProfitMax Accu Bot Main',
-            file: 'ProfitMax Accu Bot Main.xml',
+            name: 'Pro Traders Accu Bot Main',
+            description: 'Pro Traders Accu Bot Main',
+            file: 'Pro Traders Accu Bot Main.xml',
             icon: '🤖',
         },
         {
-            name: '🔥 ProfitMax Apex Trader 🚀📊✨',
-            description: '🔥 ProfitMax Apex Trader 🚀📊✨',
-            file: '🔥 ProfitMax Apex Trader 🚀📊✨.xml',
+            name: '🔥 Pro Traders Apex Trader 🚀📊✨',
+            description: '🔥 Pro Traders Apex Trader 🚀📊✨',
+            file: '🔥 Pro Traders Apex Trader 🚀📊✨.xml',
             icon: '🤖',
         },
         {
-            name: '🔹 ProfitMax 1$ System 💰🤖',
-            description: '🔹 ProfitMax 1$ System 💰🤖',
-            file: '🔹 ProfitMax 1$ System 💰🤖.xml',
+            name: '🔹 Pro Traders 1$ System 💰🤖',
+            description: '🔹 Pro Traders 1$ System 💰🤖',
+            file: '🔹 Pro Traders 1$ System 💰🤖.xml',
             icon: '🤖',
         },
         {
-            name: '🚀 ProfitMax Fusion-X 🤖🌠™ 2025',
-            description: '🚀 ProfitMax Fusion-X 🤖🌠™ 2025',
-            file: '🚀 ProfitMax Fusion-X 🤖🌠™ 2025.xml',
+            name: '🚀 Pro Traders Fusion-X 🤖🌠™ 2025',
+            description: '🚀 Pro Traders Fusion-X 🤖🌠™ 2025',
+            file: '🚀 Pro Traders Fusion-X 🤖🌠™ 2025.xml',
             icon: '🤖',
         },
         {
-            name: '🚀 ProfitMax Rise & Fall Auto Switch 🔄📈📉',
-            description: '🚀 ProfitMax Rise & Fall Auto Switch 🔄📈📉',
-            file: '🚀 ProfitMax Rise & Fall Auto Switch 🔄📈📉.xml',
+            name: '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉',
+            description: '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉',
+            file: '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉.xml',
             icon: '🤖',
         },
         {
-            name: 'x🤖🎯 The ProfitMax Even_Odd Auto Switch 2025™ 🔄xx',
-            description: '🤖🎯 The ProfitMax Even_Odd Auto Switch 2025™ 🔄',
-            file: '🤖🎯 The ProfitMax Even_Odd Auto Switch 2025™ 🔄.xml',
+            name: 'x🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄xx',
+            description: '🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄',
+            file: '🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄.xml',
             icon: '🤖',
         },
         {
-            name: '🧠📊🔍 ProfitMax Fusion Analyzer™',
-            description: '🧠📊🔍 ProfitMax Fusion Analyzer™',
-            file: '🧠📊🔍 ProfitMax Fusion Analyzer™.xml',
+            name: '🧠📊🔍 Pro Traders Fusion Analyzer™',
+            description: '🧠📊🔍 Pro Traders Fusion Analyzer™',
+            file: '🧠📊🔍 Pro Traders Fusion Analyzer™.xml',
             icon: '🤖',
         },
         {
-            name: '⚡ ProfitMax Encroach Trader 💵',
-            description: '⚡ ProfitMax Encroach Trader 💵',
-            file: '⚡ ProfitMax Encroach Trader 💵.xml',
+            name: '⚡ Pro Traders Encroach Trader 💵',
+            description: '⚡ Pro Traders Encroach Trader 💵',
+            file: '⚡ Pro Traders Encroach Trader 💵.xml',
             icon: '🤖',
         },
         {

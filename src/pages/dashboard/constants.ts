@@ -8,7 +8,7 @@ export type TSidebarItem = {
 
 export const SIDEBAR_INTRO = (): TSidebarItem[] => [
     {
-        label: localize('Welcome to ProfitMax Trader Pro!'),
+        label: localize('Welcome to Pro Traders Trader Pro!'),
         content: [
             {
                 data: localize('Trade smarter, not harder – let the bot handle it.'),

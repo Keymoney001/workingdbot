@@ -18,11 +18,11 @@ body {
       border: none;
       border-radius: 6px;
       box-shadow: 0 0 3px orange;
-      background-color: #1e1e1e;
+      background-color: #4d26dd;
       color: #fff;
     }
     .top-bar button {
-      background-color: #1e1e1e;
+      background-color: #6c2de2;
       color: orange;
       border-radius: 6px;
       padding: 4px 8px;  /* Reduced padding for smaller button size */
@@ -40,7 +40,7 @@ body {
       gap: 20px;
     }
     .panel {
-      background-color: #1e1e1e;
+      background-color: #6730e6;
       padding: 15px;
       border-radius: 8px;
       box-shadow: 0 0 8px rgba(255,165,0,0.3);
@@ -49,7 +49,7 @@ body {
     }
     .panel input {
       color: orange !important; /* Force orange color */
-      background-color: #121212; /* Keep the original background color */
+      background-color: #3f1bdf; /* Keep the original background color */
       border: none;
       border-radius: 4px;
       text-align: center;
@@ -57,7 +57,7 @@ body {
     }
     .panel select {
       color: orange !important; /* Set text color to orange */
-      background-color: #121212; /* Keep the original background color */
+      background-color: #3c48f1; /* Keep the original background color */
       border: none;
       border-radius: 4px;
       padding: 4px;
@@ -82,7 +82,7 @@ body {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #121212;
+      background-color: #2431e9;
       color: white;
       display: flex;
       align-items: center;
@@ -135,7 +135,7 @@ body {
       font-family: 'Poppins', ghetto;  /* Apply the custom font */
       font-weight: bold;  /* Make the text bold */
       font-size: 14px;  /* Adjust font size if needed */
-      color: black;  /* Set text color to orange */
+      color: rgb(77, 32, 238);  /* Set text color to orange */
     }
     .progress {
       display: flex;

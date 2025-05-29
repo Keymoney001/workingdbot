@@ -30,7 +30,7 @@ const FreeBots = observer(() => {
 
     // Map filenames to their XML content
     const botXmlMap: Record<string, string> = {
-        'Profit Max No Martngale FREE Bot.xml': x1,
+        'Pro Traders No Martngale FREE Bot.xml': x1,
         'Pro Traders Accu Bot Main.xml': x2,
         '🔥 Pro Traders Apex Trader 🚀📊✨.xml': x3,
         '🔹 Pro Traders 1$ System 💰🤖.xml': x4,
@@ -46,9 +46,9 @@ const FreeBots = observer(() => {
 
     const bots = [
         {
-            name: 'Profit Max No Martngale FREE Bot',
-            description: 'Profit Max No Martngale FREE Bot',
-            file: 'Profit Max No Martngale FREE Bot.xml',
+            name: 'Pro Traders No Martngale FREE Bot',
+            description: 'Pro Traders No Martngale FREE Bot',
+            file: 'Pro Traders No Martngale FREE Bot.xml',
             icon: '🤖',
         },
         {

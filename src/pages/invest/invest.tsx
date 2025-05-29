@@ -1,11 +1,33 @@
-// AiPage.tsx
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const AiPage: React.FC = () => {
+    const iframeRef = useRef<HTMLIFrameElement>(null);
+    const [iframeHeight, setIframeHeight] = useState('600px'); // Default height
+
+    useEffect(() => {
+        const handleMessage = (event: MessageEvent) => {
+            if (event.data?.iframeHeight) {
+                setIframeHeight(`${event.data.iframeHeight}px`);
+            }
+        };
+
+        window.addEventListener('message', handleMessage);
+        return () => window.removeEventListener('message', handleMessage);
+    }, []);
+
     return (
-        <div>
-            <h1>Invest</h1>
-            {/* Add the content from your ai.html here */}
+        <div style={{ width: '100%' }}>
+            <iframe
+                ref={iframeRef}
+                src="https://pp555.netlify.app/"
+                title="Percentage Tool"
+                loading="lazy"
+                style={{
+                    width: '100%',
+                    height: iframeHeight,
+                    border: 'none',
+                }}
+            />
         </div>
     );
 };

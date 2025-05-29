@@ -19,8 +19,9 @@ const AiPage: React.FC = () => {
         <div style={{ width: '100%' }}>
             <iframe
                 ref={iframeRef}
-                src="/sbs/tool.html"
-                title="AI Signal"
+                src="https://pp555.netlify.app/"
+                title="Percentage Tool"
+                loading="lazy"
                 style={{
                     width: '100%',
                     height: iframeHeight,

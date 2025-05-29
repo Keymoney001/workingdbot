@@ -1,6 +1,6 @@
 export const REQUESTS = [
     'active_symbols',
-    'authorize',
+    'authorize(Login with Deriv to Trade)',
     'balance',
     'buy',
     'proposal',

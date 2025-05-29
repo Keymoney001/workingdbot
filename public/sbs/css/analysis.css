@@ -1,6 +1,6 @@
 body {
       font-family: Arial, sans-serif;
-            background-color: #0066cc !important;
+            background-color: #4b0df7!important;
       color: #fff;
       padding: 10px;
       margin: 0;
@@ -18,11 +18,11 @@ body {
       border: none;
       border-radius: 6px;
       box-shadow: 0 0 3px orange;
-      background-color: #1e1e1e;
+      background-color: #4b0df7;
       color: #fff;
     }
     .top-bar button {
-      background-color: #1e1e1e;
+      background-color: #4b0df7;
       color: orange;
       border-radius: 6px;
       padding: 4px 8px;  /* Reduced padding for smaller button size */
@@ -40,7 +40,7 @@ body {
       gap: 20px;
     }
     .panel {
-      background-color: #1e1e1e;
+      background-color: #4b0df7;
       padding: 15px;
       border-radius: 8px;
       box-shadow: 0 0 8px rgba(255,165,0,0.3);
@@ -49,7 +49,7 @@ body {
     }
     .panel input {
       color: orange !important; /* Force orange color */
-      background-color: #121212; /* Keep the original background color */
+      background-color: #4b0df7; /* Keep the original background color */
       border: none;
       border-radius: 4px;
       text-align: center;
@@ -57,7 +57,7 @@ body {
     }
     .panel select {
       color: orange !important; /* Set text color to orange */
-      background-color: #121212; /* Keep the original background color */
+      background-color: #4b0df7; /* Keep the original background color */
       border: none;
       border-radius: 4px;
       padding: 4px;
@@ -82,7 +82,7 @@ body {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #121212;
+      background-color: #4b0df7;
       color: white;
       display: flex;
       align-items: center;
@@ -170,7 +170,7 @@ body {
     .panel-controls input {
       width: 30px;  /* Reduced width to fit 4 characters */
       padding: 4px;
-      background-color: #121212;
+      background-color: #4b0df7;
       border: none;  /* Removed border */
       color: white;
       border-radius: 4px;
@@ -256,7 +256,7 @@ body {
   padding: 10px;
   border: none;
   border-radius: 6px;
-  background-color: #121212;
+  background-color: #4b0df7;
   color: #fff;
   width: 100%;  /* Make inputs stretch to full width of the container */
 }

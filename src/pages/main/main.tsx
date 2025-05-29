@@ -32,9 +32,9 @@ import ChartModal from '../chart/chart-modal';
 import Dashboard from '../dashboard';
 import RunStrategy from '../dashboard/run-strategy';
 
-const AiPage = lazy(() => import('../ai/ai')); // Assuming you created AiPage.tsx
+const AiPage = lazy(() => import('../invest/ai')); // Assuming you created AiPage.tsx
 const BotsPage = lazy(() => import('../bots/freebots')); // Assuming you created BotsPage.tsx
-const SignalPage = lazy(() => import('../signal/signal')); // Assuming you created SignalPage.tsx
+const SignalPage = lazy(() => import('../ai/signal')); // Assuming you created SignalPage.tsx
 const InvestPage = lazy(() => import('../invest/invest')); // Assuming you created InvestPage.tsx
 const ChartWrapper = lazy(() => import('../chart/chart-wrapper'));
 const Tutorial = lazy(() => import('../tutorials'));

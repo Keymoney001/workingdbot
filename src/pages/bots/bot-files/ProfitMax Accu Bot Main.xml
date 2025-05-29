@@ -60,7 +60,7 @@
         <field name="VAR" id="=I~qU5y2.FJm???hh/8o">text</field>
         <value name="TEXT">
           <shadow type="text" id="(zM95xk*}$CM;!L:EoLp">
-            <field name="TEXT">Pro Traders AccuBot 🤖📊🚀</field>
+            <field name="TEXT">Deriv Ai AccuBot 🤖📊🚀</field>
           </shadow>
         </value>
         <next>
@@ -871,7 +871,7 @@
                                       <block type="text_statement" id="*d%K,c1?SW4n,rFX.*li">
                                         <value name="TEXT">
                                           <shadow type="text" id="weGes?KSjTg7EPpK}{.2">
-                                            <field name="TEXT">Pro Traders AccuBot 🤖📊🚀: Target Hit, Profits Secured!</field>
+                                            <field name="TEXT">Deriv Ai AccuBot 🤖📊🚀: Target Hit, Profits Secured!</field>
                                           </shadow>
                                         </value>
                                         <next>

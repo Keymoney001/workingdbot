@@ -10,14 +10,14 @@ import './freebots.scss';
 
 // Import the XML files directly
 import x1 from './bot-files/Profit Max No Martngale FREE Bot.xml'; // Correct the import statement
-import x2 from './bot-files/Pro Traders Accu Bot Main.xml';
-import x3 from './bot-files/🔥 Pro Traders Apex Trader 🚀📊✨.xml';
-import x4 from './bot-files/🔹 Pro Traders 1$ System 💰🤖.xml';
-import x5 from './bot-files/🚀 Pro Traders Fusion-X 🤖🌠™ 2025.xml';
-import x6 from './bot-files/🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉.xml';
-import x7 from './bot-files/🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄.xml';
-import x8 from './bot-files/🧠📊🔍 Pro Traders Fusion Analyzer™.xml';
-import x9 from './bot-files/⚡ Pro Traders Encroach Trader 💵.xml';
+import x2 from './bot-files/Deriv Ai Accu Bot Main.xml';
+import x3 from './bot-files/🔥 Deriv Ai Apex Trader 🚀📊✨.xml';
+import x4 from './bot-files/🔹 Deriv Ai 1$ System 💰🤖.xml';
+import x5 from './bot-files/🚀 Deriv Ai Fusion-X 🤖🌠™ 2025.xml';
+import x6 from './bot-files/🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml';
+import x7 from './bot-files/🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄.xml';
+import x8 from './bot-files/🧠📊🔍 Deriv Ai Fusion Analyzer™.xml';
+import x9 from './bot-files/⚡ Deriv Ai Encroach Trader 💵.xml';
 import x10 from './bot-files/$Orginal DollarPrinterBot  2025 Version $.xml';
 import x11 from './bot-files/Alpha Version 2025.xml';
 import x12 from './bot-files/Updated Version Of Candle Mine🇬🇧.xml';
@@ -30,15 +30,15 @@ const FreeBots = observer(() => {
 
     // Map filenames to their XML content
     const botXmlMap: Record<string, string> = {
-        'Pro Traders No Martngale FREE Bot.xml': x1,
-        'Pro Traders Accu Bot Main.xml': x2,
-        '🔥 Pro Traders Apex Trader 🚀📊✨.xml': x3,
-        '🔹 Pro Traders 1$ System 💰🤖.xml': x4,
-        '🚀 Pro Traders Fusion-X 🤖🌠™ 2025.xml': x5,
-        '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉.xml': x6,
-        '🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄.xml': x7,
-        '🧠📊🔍 Pro Traders Fusion Analyzer™.xml': x8,
-        '⚡ Pro Traders Encroach Trader 💵.xml': x9,
+        'Deriv Ai No Martngale FREE Bot.xml': x1,
+        'Deriv Ai Accu Bot Main.xml': x2,
+        '🔥 Deriv Ai Apex Trader 🚀📊✨.xml': x3,
+        '🔹 Deriv Ai 1$ System 💰🤖.xml': x4,
+        '🚀 Deriv Ai Fusion-X 🤖🌠™ 2025.xml': x5,
+        '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml': x6,
+        '🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄.xml': x7,
+        '🧠📊🔍 Deriv Ai Fusion Analyzer™.xml': x8,
+        '⚡ Deriv Ai Encroach Trader 💵.xml': x9,
         '$Orginal DollarPrinterBot  2025 Version $.xml': x10,
         'Alpha Version 2025.xml': x11,
         'Updated Version Of Candle Mine🇬🇧.xml': x12,
@@ -46,57 +46,57 @@ const FreeBots = observer(() => {
 
     const bots = [
         {
-            name: 'Pro Traders No Martngale FREE Bot',
-            description: 'Pro Traders No Martngale FREE Bot',
-            file: 'Pro Traders No Martngale FREE Bot.xml',
+            name: 'Deriv Ai No Martngale FREE Bot',
+            description: 'Deriv Ai No Martngale FREE Bot',
+            file: 'Deriv Ai No Martngale FREE Bot.xml',
             icon: '🤖',
         },
         {
-            name: 'Pro Traders Accu Bot Main',
-            description: 'Pro Traders Accu Bot Main',
-            file: 'Pro Traders Accu Bot Main.xml',
+            name: 'Deriv Ai Accu Bot Main',
+            description: 'Deriv Ai Accu Bot Main',
+            file: 'Deriv Ai Accu Bot Main.xml',
             icon: '🤖',
         },
         {
-            name: '🔥 Pro Traders Apex Trader 🚀📊✨',
-            description: '🔥 Pro Traders Apex Trader 🚀📊✨',
-            file: '🔥 Pro Traders Apex Trader 🚀📊✨.xml',
+            name: '🔥 Deriv Ai Apex Trader 🚀📊✨',
+            description: '🔥 Deriv Ai Apex Trader 🚀📊✨',
+            file: '🔥 Deriv Ai Apex Trader 🚀📊✨.xml',
             icon: '🤖',
         },
         {
-            name: '🔹 Pro Traders 1$ System 💰🤖',
-            description: '🔹 Pro Traders 1$ System 💰🤖',
-            file: '🔹 Pro Traders 1$ System 💰🤖.xml',
+            name: '🔹 Deriv Ai 1$ System 💰🤖',
+            description: '🔹 Deriv Ai 1$ System 💰🤖',
+            file: '🔹 Deriv Ai 1$ System 💰🤖.xml',
             icon: '🤖',
         },
         {
-            name: '🚀 Pro Traders Fusion-X 🤖🌠™ 2025',
-            description: '🚀 Pro Traders Fusion-X 🤖🌠™ 2025',
-            file: '🚀 Pro Traders Fusion-X 🤖🌠™ 2025.xml',
+            name: '🚀 Deriv Ai Fusion-X 🤖🌠™ 2025',
+            description: '🚀 Deriv Ai Fusion-X 🤖🌠™ 2025',
+            file: '🚀 Deriv Ai Fusion-X 🤖🌠™ 2025.xml',
             icon: '🤖',
         },
         {
-            name: '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉',
-            description: '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉',
-            file: '🚀 Pro Traders Rise & Fall Auto Switch 🔄📈📉.xml',
+            name: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉',
+            description: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉',
+            file: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml',
             icon: '🤖',
         },
         {
-            name: 'x🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄xx',
-            description: '🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄',
-            file: '🤖🎯 The Pro Traders Even_Odd Auto Switch 2025™ 🔄.xml',
+            name: 'x🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄xx',
+            description: '🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄',
+            file: '🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄.xml',
             icon: '🤖',
         },
         {
-            name: '🧠📊🔍 Pro Traders Fusion Analyzer™',
-            description: '🧠📊🔍 Pro Traders Fusion Analyzer™',
-            file: '🧠📊🔍 Pro Traders Fusion Analyzer™.xml',
+            name: '🧠📊🔍 Deriv Ai Fusion Analyzer™',
+            description: '🧠📊🔍 Deriv Ai Fusion Analyzer™',
+            file: '🧠📊🔍 Deriv Ai Fusion Analyzer™.xml',
             icon: '🤖',
         },
         {
-            name: '⚡ Pro Traders Encroach Trader 💵',
-            description: '⚡ Pro Traders Encroach Trader 💵',
-            file: '⚡ Pro Traders Encroach Trader 💵.xml',
+            name: '⚡ Deriv Ai Encroach Trader 💵',
+            description: '⚡ Deriv Ai Encroach Trader 💵',
+            file: '⚡ Deriv Ai Encroach Trader 💵.xml',
             icon: '🤖',
         },
         {

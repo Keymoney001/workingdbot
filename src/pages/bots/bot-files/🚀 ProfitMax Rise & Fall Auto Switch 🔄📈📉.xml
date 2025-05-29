@@ -452,7 +452,7 @@
                                 <field name="TEXT">abc</field>
                               </shadow>
                               <block type="text" id="CUNyH5QrjQf*K:$R5:L|">
-                                <field name="TEXT">Pro Traders Stop Lose Reached</field>
+                                <field name="TEXT">Deriv Ai Stop Lose Reached</field>
                               </block>
                             </value>
                           </block>
@@ -472,7 +472,7 @@
                                 <field name="TEXT"></field>
                               </shadow>
                               <block type="text" id="c?VlFBvCthBoo{l?kvIz">
-                                <field name="TEXT">Pro Traders Rise &amp; Fall Auto Switch</field>
+                                <field name="TEXT">Deriv Ai Rise &amp; Fall Auto Switch</field>
                               </block>
                             </value>
                             <next>

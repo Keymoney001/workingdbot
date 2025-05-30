@@ -34,13 +34,13 @@ import RunStrategy from '../dashboard/run-strategy';
 
 const AiPage = lazy(() => import('../invest/ai')); // Assuming you created AiPage.tsx
 const BotsPage = lazy(() => import('../bots/freebots')); // Assuming you created BotsPage.tsx
-const SignalPage = lazy(() => import('../ai/signal')); // Assuming you created SignalPage.tsx
-const InvestPage = lazy(() => import('../invest/invest')); // Assuming you created InvestPage.tsx
+//const SignalPage = lazy(() => import('../ai/signal')); // Assuming you created SignalPage.tsx
+//const InvestPage = lazy(() => import('../invest/invest')); // Assuming you created InvestPage.tsx
 const ChartWrapper = lazy(() => import('../chart/chart-wrapper'));
 const Tutorial = lazy(() => import('../tutorials'));
-const Analysis = lazy(() => import('../analysis/analysis'));
-const Tool = lazy(() => import('../tool/tool'));
-const Copy = lazy(() => import('../copy/copy'));
+//const Analysis = lazy(() => import('../analysis/analysis'));
+//const Tool = lazy(() => import('../tool/tool'));
+//const Copy = lazy(() => import('../copy/copy'));
 //const Tutorial = lazy(() => import('../tutorials'));
 
 const AppWrapper = observer(() => {
@@ -71,7 +71,7 @@ const AppWrapper = observer(() => {
     const { clear } = summary_card;
     const { DASHBOARD, BOT_BUILDER } = DBOT_TABS;
     const init_render = React.useRef(true);
-    const hash = ['dashboard', 'bot_builder', 'chart', 'tutorial', 'analysis', 'tool', 'bots', 'ai', 'signal', 'invest'];
+    const hash = ['bots', 'ai','dashboard', 'bot_builder', 'chart', 'tutorial', ];//, 'signal', 'invest''analysis', 'tool', 
     const { isDesktop } = useDevice();
     const location = useLocation();
     const navigate = useNavigate();

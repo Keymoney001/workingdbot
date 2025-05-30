@@ -120,7 +120,7 @@ const AppHeader = observer(() => {
                     <Button
                         primary
                         onClick={() => {
-                            window.open('https://track.deriv.com/_71lZpQSowCdB4VdSfJsOp2Nd7ZgqdRLk/1/', '_blank');
+                            window.open('https://deriv.com/signup?sidc=7BAF63CC-C449-48C3-8321-FF133B244977&utm_campaign=dynamicworks&utm_medium=affiliate&utm_source=CU29510', '_blank');
                         }}
                     >
                         <Localize i18n_default_text='Sign up' />

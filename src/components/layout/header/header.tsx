@@ -146,11 +146,11 @@ const AppHeader = observer(() => {
 
                 {isDesktop ? (
                     <div className='mobile-menu'>
-                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
+                        <button onClick={() => window.location.href = 'https://derivai.site'}>
                             <ArrowUpCircle className='mobile-menu__icon' />
                             Withdraw
                         </button>
-                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
+                        <button onClick={() => window.location.href = 'https://derivai.site'}>
                             <ArrowDownCircle className='mobile-menu__icon' />
                             Deposit
                         </button>
@@ -172,11 +172,11 @@ const AppHeader = observer(() => {
 
                 {isMenuOpen && !isDesktop && (
                     <div className='mobile-menu' style={{ background: 'rgba(0, 0, 0, 0.7)', border: '2px solid red' }}>
-                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
+                        <button onClick={() => window.location.href = 'https://derivai.site'}>
                             <ArrowUpCircle className='mobile-menu__icon' />
                             Withdraw
                         </button>
-                        <button onClick={() => window.location.href = 'https://workingdbot.vercel.app'}>
+                        <button onClick={() => window.location.href = 'https://derivai.site'}>
                             <ArrowDownCircle className='mobile-menu__icon' />
                             Deposit
                         </button>

@@ -284,20 +284,7 @@ const AppWrapper = observer(() => {
                             </Suspense>
                         </div>*/}
 
-                        {/*<div
-                            label={(
-                                <>
-                                    <Localize i18n_default_text={localize('🧲 Tools')} />
-                                </>
-                            )}
-                            id='id-tool'
-                            onClick={() => handleLinkChange('tool')}
-                            style={{ cursor: 'pointer' }}
-                        >
-                            <Suspense fallback={<ChunkLoader message={localize('Please wait, loading  page...')} />}>
-                                <Tool />
-                            </Suspense>
-                        </div>*/}
+                        
 
                         {/*<div
                             label={(

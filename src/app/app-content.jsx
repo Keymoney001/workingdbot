@@ -182,7 +182,7 @@ const AppContent = observer(() => {
         <ChunkLoader message={localize('Initializing your account...')} />
     ) : (
         <>
-            <ThemeProvider theme={is_dark_mode_on ? 'dark' : 'light'}>
+            <ThemeProvider theme={is_light_mode_on ? 'light' : 'dark'}>
                 <BlocklyLoading />
                 <div className='bot-dashboard bot' data-testid='dt_bot_dashboard'>
                     <Audio />

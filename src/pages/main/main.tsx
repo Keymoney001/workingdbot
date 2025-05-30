@@ -269,7 +269,7 @@ const AppWrapper = observer(() => {
                         </div>
 
                         {/* Add links to new AI, Bots, Signal, and Invest pages */}
-                        <div
+                       {/*<div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('💡 Analysis')} />
@@ -282,9 +282,9 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading page...')} />}>
                                 <Analysis />
                             </Suspense>
-                        </div>
+                        </div>*/}
 
-                        <div
+                        {/*<div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('🧲 Tools')} />
@@ -297,7 +297,7 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading  page...')} />}>
                                 <Tool />
                             </Suspense>
-                        </div>
+                        </div>*/}
 
                         {/*<div
                             label={(
@@ -317,7 +317,7 @@ const AppWrapper = observer(() => {
                         <div
                             label={(
                                 <>
-                                    <Localize i18n_default_text={localize('🤖 Bots')} />
+                                    <Localize i18n_default_text={localize('🤖Free Bots')} />
                                 </>
                             )}
                             id='id-bots'
@@ -333,7 +333,7 @@ const AppWrapper = observer(() => {
                             </Suspense>
                         </div>
 
-                        <div
+                        {/*<div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('🤝 CopyTrade')} />
@@ -346,12 +346,12 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading  page...')} />}>
                                 <Copy />
                             </Suspense>
-                        </div>
+                        </div>*/}
 
                         <div
                             label={(
                                 <>
-                                    <Localize i18n_default_text={localize('🕹️ AI')} />
+                                    <Localize i18n_default_text={localize('🕹️ Ai Analysis')} />
                                 </>
                             )}
                             id='id-ai'
@@ -363,7 +363,7 @@ const AppWrapper = observer(() => {
                             </Suspense>
                         </div>
 
-                        <div
+                        {/*<div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('📢 Signal')} />
@@ -376,9 +376,9 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading Signal page...')} />}>
                                 <SignalPage />
                             </Suspense>
-                        </div>
+                        </div>*/}
 
-                        <div
+                       {/*<div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('💼 Invest')} />
@@ -391,7 +391,7 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading Invest page...')} />}>
                                 <InvestPage />
                             </Suspense>
-                        </div>
+                        </div>*/}
                     </Tabs>
                 </div>
             </div>

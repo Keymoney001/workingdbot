@@ -38,9 +38,9 @@ const SignalPage = lazy(() => import('../ai/signal')); // Assuming you created S
 //const InvestPage = lazy(() => import('../invest/invest')); // Assuming you created InvestPage.tsx
 const ChartWrapper = lazy(() => import('../chart/chart-wrapper'));
 const Tutorial = lazy(() => import('../tutorials'));
-//const Analysis = lazy(() => import('../analysis/analysis'));
+const Analysis = lazy(() => import('../analysis/analysis'));
 //const Tool = lazy(() => import('../tool/tool'));
-//const Copy = lazy(() => import('../copy/copy'));
+const Copy = lazy(() => import('../copy/copy'));
 //const Tutorial = lazy(() => import('../tutorials'));
 
 const AppWrapper = observer(() => {
@@ -269,7 +269,7 @@ const AppWrapper = observer(() => {
                         </div>
 
                         {/* Add links to new AI, Bots, Signal, and Invest pages */}
-                       {/*<div
+                       <div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('💡 Analysis')} />
@@ -282,25 +282,11 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading page...')} />}>
                                 <Analysis />
                             </Suspense>
-                        </div>*/}
+                        </div>
 
                         
 
-                        {/*<div
-                            label={(
-                                <>
-                                    <Localize i18n_default_text={localize('🤖 Bots')} />
-                                </>
-                            )}
-                            id='id-bots'
-                            onClick={() => handleLinkChange('bots')}
-                            style={{ cursor: 'pointer' }}
-                        >
-                            <Suspense fallback={<ChunkLoader message={localize('Please wait, loading Bots page...')} />}>
-                                <BotsPage />
-                            </Suspense>
-                        </div>*/}
-
+                      
                         <div
                             label={(
                                 <>
@@ -320,7 +306,7 @@ const AppWrapper = observer(() => {
                             </Suspense>
                         </div>
 
-                        {/*<div
+                        <div
                             label={(
                                 <>
                                     <Localize i18n_default_text={localize('🤝 CopyTrade')} />
@@ -333,7 +319,7 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading  page...')} />}>
                                 <Copy />
                             </Suspense>
-                        </div>*/}
+                        </div>
 
                         <div
                             label={(
@@ -350,35 +336,8 @@ const AppWrapper = observer(() => {
                             </Suspense>
                         </div>
 
-                        {/*<div
-                            label={(
-                                <>
-                                    <Localize i18n_default_text={localize('📢 Signal')} />
-                                </>
-                            )}
-                            id='id-signal'
-                            onClick={() => handleLinkChange('signal')}
-                            style={{ cursor: 'pointer' }}
-                        >
-                            <Suspense fallback={<ChunkLoader message={localize('Please wait, loading Signal page...')} />}>
-                                <SignalPage />
-                            </Suspense>
-                        </div>*/}
-
-                       {/*<div
-                            label={(
-                                <>
-                                    <Localize i18n_default_text={localize('💼 Invest')} />
-                                </>
-                            )}
-                            id='id-invest'
-                            onClick={() => handleLinkChange('invest')}
-                            style={{ cursor: 'pointer' }}
-                        >
-                            <Suspense fallback={<ChunkLoader message={localize('Please wait, loading Invest page...')} />}>
-                                <InvestPage />
-                            </Suspense>
-                        </div>*/}
+                       
+                     
                     </Tabs>
                 </div>
             </div>

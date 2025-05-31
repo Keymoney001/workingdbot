@@ -31,6 +31,7 @@ import RunPanel from '../../components/run-panel'; //ss
 import ChartModal from '../chart/chart-modal';
 import Dashboard from '../dashboard';
 import RunStrategy from '../dashboard/run-strategy';
+import AiPage from '../ai/ai';
 
 const AiPage = lazy(() => import('../invest/ai')); // Assuming you created AiPage.tsx
 const BotsPage = lazy(() => import('../bots/freebots')); // Assuming you created BotsPage.tsx
@@ -69,9 +70,9 @@ const AppWrapper = observer(() => {
     const { is_open } = quick_strategy;
     const { cancel_button_text, ok_button_text, title, message } = dialog_options as { [key: string]: string };
     const { clear } = summary_card;
-    const { DASHBOARD, BOT_BUILDER } = DBOT_TABS;
+    const { DASHBOARD, BOT_BUILDER, BOt, AiPage, CHART  } = DBOT_TABS;
     const init_render = React.useRef(true);
-    const hash = ['bots', 'ai','dashboard', 'bot_builder', 'chart', 'tutorial', ];//, 'signal', 'invest''analysis', 'tool', 
+    //const hash = ['bots', 'ai','dashboard', 'bot_builder', 'chart', 'tutorial', ];//, 'signal', 'invest''analysis', 'tool', 
     const { isDesktop } = useDevice();
     const location = useLocation();
     const navigate = useNavigate();
@@ -268,7 +269,7 @@ const AppWrapper = observer(() => {
                             </div>
                         </div>
 
-                        {/* Add links to new AI, Bots, Signal, and Invest pages */}
+                        {/* Add links to new AI, Bots, Signal, and Invest pages 
                        <div
                             label={(
                                 <>
@@ -334,7 +335,7 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading AI page...')} />}>
                                 <AiPage />
                             </Suspense>
-                        </div>
+                        </div>  */}
 
                        
                      

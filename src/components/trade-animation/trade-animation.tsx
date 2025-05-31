@@ -118,9 +118,9 @@ const TradeAnimation = observer(({ className, should_show_overlay }: TTradeAnima
 
     // Disable the RUN button if:
     // 1. There are no active or saved bots AND the user is not in the bot builder tab
-    const should_disable_run = has_no_bots && !is_bot_builder_tab;
+   // const should_disable_run = has_no_bots && !is_bot_builder_tab;
 
-    const is_disabled = is_stop_button_visible ? false : shouldDisable || should_disable_run;
+   // const is_disabled = is_stop_button_visible ? false : shouldDisable || should_disable_run;
 
     // Show the tooltip when:
     // 1. The user is NOT in the bot builder tab, AND

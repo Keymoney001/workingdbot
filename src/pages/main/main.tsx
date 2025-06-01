@@ -40,7 +40,6 @@ const SignalPage = lazy(() => import('../ai/signal')); // Assuming you created S
 const ChartWrapper = lazy(() => import('../chart/chart-wrapper'));
 const Tutorial = lazy(() => import('../tutorials'));
 const Analysis = lazy(() => import('../analysis/analysis'));
-//const Tool = lazy(() => import('../tool/tool'));
 const Copy = lazy(() => import('../copy/copy'));
 //const Tutorial = lazy(() => import('../tutorials'));
 
@@ -269,7 +268,7 @@ const AppWrapper = observer(() => {
                             </div>
                         </div>
 
-                        {/* Add links to new AI, Bots, Signal, and Invest pages 
+                        {/* Add links to new AI, Bots, Signal, and Invest pages */}
                        <div
                             label={(
                                 <>
@@ -335,7 +334,7 @@ const AppWrapper = observer(() => {
                             <Suspense fallback={<ChunkLoader message={localize('Please wait, loading AI page...')} />}>
                                 <AiPage />
                             </Suspense>
-                        </div>  */}
+                        </div>  
 
                        
                      

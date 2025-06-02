@@ -77,8 +77,8 @@ const FreeBots = observer(() => {
         },
         {
             name: '🚀 Deriv Ai Super ELite Pro 🔄📈📉',
-            description: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉',
-            file: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml',
+            description: '🚀 Deriv Ai Super ELite Pro 🔄📈📉',
+            file: '🚀 Deriv Ai Super ELite Pro 🔄📈📉.xml',
             icon: '🤖',
         },
         {

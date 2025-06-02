@@ -14,7 +14,7 @@ import x2 from './bot-files/Deriv Ai Accu Bot Main.xml';
 import x3 from './bot-files/🔥 Deriv Ai Apex Trader 🚀📊✨.xml';
 import x4 from './bot-files/🔹 Deriv Ai 1$ System 💰🤖.xml';
 import x5 from './bot-files/🚀 Deriv Ai Fusion-X 🤖🌠™ 2025.xml';
-import x6 from './bot-files/🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml';
+import x6 from './bot-files/🚀 Deriv Ai Super ELite Pro 🔄📈📉.xml';
 import x7 from './bot-files/🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄.xml';
 import x8 from './bot-files/🧠📊🔍 Deriv Ai Fusion Analyzer™.xml';
 import x9 from './bot-files/⚡ Deriv Ai Encroach Trader 💵.xml';
@@ -35,7 +35,7 @@ const FreeBots = observer(() => {
         '🔥 Deriv Ai Apex Trader 🚀📊✨.xml': x3,
         '🔹 Deriv Ai 1$ System 💰🤖.xml': x4,
         '🚀 Deriv Ai Fusion-X 🤖🌠™ 2025.xml': x5,
-        '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml': x6,
+        '🚀 Deriv Ai Super ELite Pro🔄📈📉.xml': x6,
         '🤖🎯 The Deriv Ai Even_Odd Auto Switch 2025™ 🔄.xml': x7,
         '🧠📊🔍 Deriv Ai Fusion Analyzer™.xml': x8,
         '⚡ Deriv Ai Encroach Trader 💵.xml': x9,
@@ -76,7 +76,7 @@ const FreeBots = observer(() => {
             icon: '🤖',
         },
         {
-            name: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉',
+            name: '🚀 Deriv Ai Super ELite Pro 🔄📈📉',
             description: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉',
             file: '🚀 Deriv Ai Rise & Fall Auto Switch 🔄📈📉.xml',
             icon: '🤖',

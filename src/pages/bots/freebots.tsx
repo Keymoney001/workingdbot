@@ -9,7 +9,7 @@ import { Localize } from '@deriv-com/translations';
 import './freebots.scss';
 
 // Import the XML files directly
-import x1 from './bot-files/Profit Max No Martngale FREE Bot.xml'; // Correct the import statement
+import x1 from './bot-files/Deriv Ai Super ELite.xml'; // Correct the import statement
 import x2 from './bot-files/Deriv Ai Accu Bot Main.xml';
 import x3 from './bot-files/🔥 Deriv Ai Apex Trader 🚀📊✨.xml';
 import x4 from './bot-files/🔹 Deriv Ai 1$ System 💰🤖.xml';
